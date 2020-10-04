@@ -1,0 +1,30 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+## STS ##
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+## IntelliJ IDEA ##
+.idea
+*.iws
+*.iml
+*.ipr
+*.pth
+*.h5
+*.weights
+*.avi
+
+## JRebel ##
+rebel.xml
+
+## MAC ##
+.DS_Store
+
+## Other ##
+logs/
+temp/
