@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # full-video-analysis（视频全量目标分析与建模）
 
 #### 项目介绍
@@ -20,13 +19,11 @@
 
   ​       Yolo-V4的主要目的在于设计一个能够应用于实际工作环境中的快速目标检测系统，且能够被并行优化，并没有很刻意的去追求理论上的低计算量（BFLOP）。同时，Yolo-V4的作者希望算法能够很轻易的被训练，也就是说拥有一块常规的GTX-2080ti或者Titan-XP GPU就能够训练Yolo-V4，同时能够得到一个较好的结果。
 
-  ![image-20201202161918594](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20201202161918594.png)
-
-  
+  ![](http://jerusalem01.gitee.io/images-bed/images/full-video-analysis/image-20201202161918594.png)
 
   - **Related work**
 
-  ![image-20201202162208026](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20201202162208026.png)
+  ![image-20201202162208026](http://jerusalem01.gitee.io/images-bed/images/full-video-analysis/image-20201202162208026.png)
 
   **Input**：算法的输入。包括整个图像，一个patch，或者image pyramid。
 
@@ -56,7 +53,7 @@
 
   下图给出了不同backbone的信息对比。
 
-  ![image-20201202162329025](C:\Users\86157\AppData\Roaming\Typora\typora-user-images\image-20201202162329025.png)
+  ![image-20201202162329025](http://jerusalem01.gitee.io/images-bed/images/full-video-analysis/image-20201202162329025.png)
 
   从中可以看到：CSPResNeXt50仅仅包含16个卷积层，其感受野为425x425，包含20.6M参数；而CSPDarkNet53包含29个卷积层，725x725的感受野，27.6M参数。
 
@@ -148,7 +145,7 @@
 
 #### 效果演示
 
-![效果图](E:\程序人生\重要图片\效果图.png)
+![效果图](http://jerusalem01.gitee.io/images-bed/images/full-video-analysis/效果图.png)
 
 #### 使用步骤
 
