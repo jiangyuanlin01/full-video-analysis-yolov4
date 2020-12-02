@@ -225,7 +225,3 @@ cat
 - **[码云](https://gitee.com/jerusalem01)**
 
 - **[GitHub](https://github.com/Jerusalem01)**
-=======
-# full-video-analysis
-视频全量分析与建模
->>>>>>> 0a167c9789d594da0339e382f8b4de43b24b8e3d
