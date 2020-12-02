@@ -13,7 +13,6 @@ from keras.regularizers import l2
 
 from yolo4.utils import compose
 
-
 @wraps(Conv2D)
 def DarknetConv2D(*args, **kwargs):
     """Wrapper to set Darknet parameters for Convolution2D."""

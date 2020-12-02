@@ -49,7 +49,6 @@ def main(yolo):
     counter8 = []
     counter9 = []
     counter10 = []
-
     counter1x = 0
     counter2x = 0
     counter3x = 0
